@@ -21,6 +21,9 @@ public class test {
          S1.enterUserName(driver);
          S1.ErrorforUsername(driver);
 
+         LogInPage L1=new LogInPage();
+         L1.LogInPages(driver);
+
     }
 
 

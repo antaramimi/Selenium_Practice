@@ -65,10 +65,8 @@ public class SignInPage {
          else {
              rad_sex.get(1).click();
          }
-
-
-       WebElement Checkbox = webDriver.findElement(By.xpath("//input[@id='tac']"));
-        Checkbox.click();
+         WebElement Checkbox = webDriver.findElement(By.xpath("//input[@id='tac']"));
+         Checkbox.click();
 
     }
 
