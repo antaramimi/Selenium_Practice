@@ -10,6 +10,7 @@ import java.util.List;
 public class SignInPage {
 
 
+
     public SignInPage clickSignInBtn(WebDriver webDriver) {
         By signInButton = By.linkText("Sign Up");
         WebElement SignInButton = webDriver.findElement(signInButton);
@@ -68,6 +69,10 @@ public class SignInPage {
          WebElement Checkbox = webDriver.findElement(By.xpath("//input[@id='tac']"));
          Checkbox.click();
 
+
+        WebElement button = webDriver.findElement(By.id("tac"));
+        button.click();
+
     }
 
 
@@ -92,7 +97,15 @@ public class SignInPage {
 
 
 
+     public void SignUpButton(WebDriver webDriver){
+
+        WebElement signUp =webDriver.findElement(By.name("submit"));
+        signUp.click();
+
+     }
+
 }
+
 
 
 

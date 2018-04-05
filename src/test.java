@@ -16,10 +16,11 @@ public class test {
 
         driver.get("https://www.compzets.com/");
 
-        SignInPage S1 = new SignInPage();
+       /* SignInPage S1 = new SignInPage();
          S1.clickSignInBtn(driver);
          S1.enterUserName(driver);
          S1.ErrorforUsername(driver);
+         S1.SignUpButton(driver);*/
 
          LogInPage L1=new LogInPage();
          L1.LogInPages(driver);
